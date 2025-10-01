@@ -1,15 +1,24 @@
 # FILE NAME - coin_toss.py
-# NAME: 
+# NAME: Olivia Mincer
 # DATE: 
 # BRIEF DESCRIPTION:  
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
+import random 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+print("===== Coin Flipper =====")
 
+random_choice = random.randint(1,100)
+
+if random_choice >= 51:
+    print("Tails")
+
+else:
+    print("Heads")
 
 
 
